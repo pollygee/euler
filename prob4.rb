@@ -1,0 +1,14 @@
+# A palindromic number reads the same both ways. The largest palindrome made 
+# from the product of two 2-digit numbers is 9009 = 91 × 99.
+# 
+# Find the largest palindrome made from the product of two 3-digit numbers.
+
+RSpec.describe "Largest Palendrome Product Finder" do 
+  it "returns the numbers that create the largest palendrom of 2 numbers" do
+    expect(palendrome_finder(2).to eq())
+  end
+end
+
+def palendrome_finder(number_of_digits)
+  
+end
